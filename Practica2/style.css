@@ -1,0 +1,277 @@
+/* Developed By Emil Barranco ~ 20186076 ~ Programación Web */
+@import url("https://fonts.googleapis.com/css?family=Raleway:350&display=swap");
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fbfbf9;
+  font-family: Raleway, Helvetica;
+}
+
+header {
+  width: 100%;
+}
+
+img {
+  width: 80%;
+  height: 80%;
+  padding: 5px;
+}
+
+.Text {
+  width: 94%;
+  margin: 4em auto;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: justify;
+  font-family: Raleway, Helvetica;
+}
+
+#currentTime {
+  font-family: Raleway, Helvetica;
+  text-align: center;
+}
+
+.Logo {
+  line-height: 60px;
+  position: inherit;
+  float: left;
+  margin: 16px 46px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+nav {
+  color: #fff!important;
+	font-size: 13px;
+	font-weight: 300;
+	text-transform: uppercase;
+	text-shadow: none;
+	line-height: 80px;
+	padding: 0px;
+	letter-spacing: 3px;
+}
+
+.navbar-dark {
+  background-color: #212121 !important;
+}
+
+.Greets {
+  text-align: center;
+  height: 20%;
+}
+
+.Greet {
+  font-family: Raleway, Helvetica;
+  color: #fbfbf9;
+  padding: 10px;
+  margin-top: 100px;
+}
+
+.Greet h1 {
+  margin-top: 10px;
+  font-size: 40px;
+  font-weight: 300;
+}
+
+.Greet h4 {
+  font-size: 28px;
+  text-align: center;
+  font-weight: 300;
+}
+
+.Slider {
+  position: inherit;
+  font-weight: 500;
+  width: 100%;
+  height: 90vh;
+  margin: auto;
+  background-image: url("img/314083-dikemoon.jpg");
+  top: 0;
+  left: 0;
+  display: table;
+  animation: Slide 16s infinite;
+  background-size: cover;
+  background-position: center;
+  background-size: cover;
+}
+
+.Col {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.Col p {
+  font-size: 18px;
+  padding: 5px;
+}
+
+.Col h3 {
+  text-align: center;
+  padding: 10px;
+}
+
+.card {
+  text-align: left;
+  padding: 6px;
+  margin: 12px;
+  align-items: center;
+}
+
+.Web {
+  border: 3px solid #d4e6f1;
+}
+
+.Us img {
+  width: 200px;
+  height: 200px;
+}
+
+.Us h1 {
+  font-size: 28px;
+}
+
+.Us h3,
+h4 {
+  font-size: 140%;
+  font-weight: 350;
+  text-align: left;
+}
+
+.jumbotron {
+  color: #fbfbf9;
+  background-position: center;
+  background-size: cover;
+  border-radius: 0rem;
+  background-image: url("https://cdn.glitch.com/6529cb52-cc02-4662-b67b-9a0cc3895f55%2Fphoto-1497091071254-cc9b2ba7c48a.webp?v=1569356345597");
+}
+
+.badge-pill {
+  float: right;
+  font-size: 14px;
+  color: whitesmoke;
+}
+
+.Links .list-group-item {
+  width: 800px;
+}
+
+.Services {
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.Services h1 {
+  text-align: center;
+}
+
+.Services button {
+  text-align: center;
+  width: 80px;
+  height: 30px;
+}
+
+.News {
+  margin: 30px;
+}
+
+iframe {
+  margin: 10px;
+  padding: 20px;
+}
+
+.Contact {
+  margin: 20px;
+  padding: 20px;
+}
+
+.Contact .container,
+h3 {
+  text-align: center;
+}
+
+.Contact hr {
+  width: 600px;
+}
+
+.list-group li {
+  font-weight: 600;
+}
+
+.Row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+ion-icon {
+  width: 25px;  
+  height: 25px;
+  align-items: center;
+  align-content: center;
+}
+
+#Footer {
+  position: inherit;
+  bottom: 0;
+  width: 100%;
+  height: 40%;
+  padding-top: 10px;
+  text-align: center;
+  color: #fbfbf9;
+  background-color: #212121;
+}
+
+@keyframes Slide {
+  25% {
+    background-image: url("img/314083-dikemoon.jpg");
+  }
+  50% {
+    background-image: url("img/m4AaAaw.jpg");
+  }
+  75% {
+    background-image: url("img/pe1gtJx.jpg");
+  }
+  100% {
+    background-image: url("img/187244.jpg");
+  }
+}
+
+@media (max-width: 600px) {
+  .Greet h1 {
+    font-size: 30px;
+  }
+
+  .Greet h4 {
+    font-size: 24px;
+  }
+
+  .Col {
+    float: left;
+    width: 100%;
+    padding: 5px;
+  }
+
+  .NewsMain {
+    margin-top: 10px;
+    margin-left: 5px;
+  }
+
+  .Links .list-group-item {
+    align-items: center;
+    align-content: center;
+    width: 300px;
+  }
+
+  .NewsFeed iframe {
+    width: 100%;
+    height: 580px;
+    margin: 10px;
+  }
+}
